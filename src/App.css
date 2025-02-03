@@ -1,0 +1,796 @@
+@font-face {
+    font-family: Fashion-Fetish-Regular;
+    src: url(./fonts/Fashion-Fetish-Regular.ttf);
+}
+@font-face {
+    font-family: Causten-Medium;
+    src: url(./fonts/Causten-Medium.otf);
+}
+@font-face {
+    font-family: Causten-Light;
+    src: url(./fonts/Causten-Light.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(./assets/backgroundPlenus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Causten-Light;
+}
+section.headMain {
+    background-color: rgba(0, 0, 0, 0.473);
+    background-position: center;
+    background-size: cover;
+    min-height:20%;
+    padding: 25px 0 40px 0;
+    position: sticky;
+}
+.headCenter {
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+    transition: all 0.4s ease;
+}
+.headMenu {
+    display: flex;
+    width: 100%;
+}
+.itemsMenu {
+    width: 100%;
+    text-align: right;
+    margin: 25px 15px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.itemsMenu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 13px;
+    backdrop-filter: blur(4px);
+}
+.logo {
+    display: flex;
+    text-align: left;
+    margin: 25px 25px;
+    position: absolute;
+}
+.LogoPlenus img{
+    max-width: 100%;
+    max-height: 30%;
+    text-align: left;
+    margin: -10px 8px 0 15px;
+}
+section.ArticleMain {
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+}
+.ArticleCenter {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ArticleTitle {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.ArticleTitle h1{
+    color: white;
+    font-size: 45px;
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+    font-family: Fashion-Fetish-Regular;
+    letter-spacing: 2px;
+}
+.ArticleTitle p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+    font-family: Fashion-Fetish-Regular;
+    letter-spacing: 2px;
+}
+.ico {
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.ico img{
+    max-height: 50%;
+    margin: -10px 8px 0 15px;
+}
+
+.ico img:hover {
+    transform: scale(1.07); 
+    cursor: pointer;
+}
+.menuItem::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+.menuItem:hover::after{
+    width:100%
+}
+
+.Objetivos {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.columns {
+    display: flex;
+    margin-left: -10%;
+}
+section.PresentationMain {
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    display: flex;
+}
+.PresentationCenter {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.PresentationTitle {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15%;
+}
+.PresentationTitle h1{
+    color: white;
+    font-size: 45px;
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+    font-family: Fashion-Fetish-Regular;
+    letter-spacing: 2px;
+}
+.PresentationTitle p{
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    margin-top: -50%;
+    margin-left: 15%;
+    text-align: left;
+    font-family: Fashion-Fetish-Regular;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-bottom: 150px;
+}
+
+.NossosTrabalhos{
+    text-align: center;
+    margin: 24px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 40px;
+}
+.Academia {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+.Moda {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.Tecnologia {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.SliderMain {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.Slider {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%; 
+
+}
+.container {
+    width: 30%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.slide-item{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0);  /* Cor de fundo das setas */
+  border-radius: 50%;  /* Torna as setas circulares */
+  width: 20px;  /* Largura das setas */
+  height: 40px;  /* Altura das setas */
+  color: white;  /* Cor do ícone */
+}
+
+.swiper-button-next {
+  margin-right: -3%;  /* Distância da borda direita */
+}
+
+.swiper-button-prev {
+  margin-left: -3%;  /* Distância da borda esquerda */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px; 
+  color: white;
+}
+.Contatos {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 6%;
+    margin-bottom: -5%;
+}
+.Pleno {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-style:oblique;
+    margin-bottom: 10%;
+}
+
+/*@media below*/
+
+@media (max-width: 736px) {
+
+    section.headMain {
+        background-color: rgba(0, 0, 0, 0.473);
+        background-position: center;
+        background-size: cover;
+        min-height:20%;
+        padding: 15px 0 40px 0;
+        margin-bottom: -70px;
+    }
+    .itemsMenu {
+        width: 100%;
+        margin: 120px 15px;
+        font-size: 15px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+        margin-bottom: 500px; 
+    }
+    .PresentationTitle p{
+        margin-top: -70%;
+    }
+    .ico {
+        margin: 130px 0 0 0;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 70%;
+        max-height: 200px; 
+        margin-left: 60%;
+    }
+    .SliderMain {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .Slider {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .slide-item{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .container {
+        width: 40%;
+        max-width: 1440px;
+        min-width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 939px) {
+    .headMain {
+        display: flex;
+        margin-bottom: -20%;
+    }
+    
+    .itemsMenu {
+        width: 100%;
+        margin: 180px 15px;
+        font-size: 15px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+        margin-top: 195px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+        margin-bottom: 50px; 
+    }
+
+    .ico {
+        margin-top: 200px;
+        margin-left:175px;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 60%;
+        max-height: auto; 
+        margin-left: 60%;
+    }
+    .PresentationCenter {
+        margin-top: -10%;
+    }
+
+    .columns {
+        margin-top: -20%;
+    }
+    .Objetivos {
+        margin-bottom: 120px;
+    }
+    .container {
+        width: 40%;
+        max-width: 1440px;
+        min-width: 50%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 760px) {
+    .headMain {
+        display: flex;
+        margin-bottom: -20%;
+    }
+    .itemsMenu {
+        width: 100%;
+        margin: 160px 15px;
+        font-size: 15px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+    }
+
+    .ico {
+        margin-top: 230px;
+        margin-left: 270px;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 70%;
+        max-height: 200px; 
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .headMain {
+        display: flex;
+        margin-bottom: -20%;
+    }
+    .itemsMenu {
+        width: 100%;
+        margin: 150px 15px;
+        font-size: 15px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+        margin-bottom: 500px;
+    }
+
+    .ico {
+        margin-top: 250px;
+        margin-left: -50px;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 70%;
+        max-height: 200px; 
+        margin-left: 165%;
+    }
+    .Objetivos {
+        margin-top: -80%;
+    }
+    .PresentationCenter {
+        margin-top: -30%;
+    }
+    .PresentationCenter p{
+        margin-top: -70%;
+    }
+    .columns {
+        margin-top: -20px;
+    }
+    .container {
+        width: 40%;
+        max-width: 1440px;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .swiper-button-next {
+        margin-right: -3%;  /* Distância da borda direita */
+      }
+      
+      .swiper-button-prev {
+        margin-left: -3%;  /* Distância da borda esquerda */
+      }
+}
+@media (max-width: 430px) {
+    .columns {
+        margin-left: -30%;
+    }
+    .Presentationtxt {
+        margin-left: -10%;
+    }
+    .PresentationMain {
+        max-width: 100%;
+    }
+    .PresentationTitle p{
+        width: 120%;
+        margin-left: -5%;
+        margin-top: -300px;
+    }
+    .headMain {
+        display: flex;
+        margin-bottom: -10%;
+    }
+    .itemsMenu {
+        width: 100%;
+        margin: 120px 15px;
+        font-size: 10px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+        margin-bottom: 10%;
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+        margin-bottom: -15%;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+    }
+
+    .ico {
+        margin-top: 280px;
+        margin-right: 30px;
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 70%;
+        max-height: 200px; 
+        margin-left: 105%;
+    }
+    .container {
+        width: 40%;
+        max-width: 1440px;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .swiper-button-next {
+        margin-right: -3%;  /* Distância da borda direita */
+      }
+      
+      .swiper-button-prev {
+        margin-left: -3%;  /* Distância da borda esquerda */
+      }
+}
+@media (max-width: 344px) { /*more for smartphones like Galaxy Z Flip/Fold*/
+    .columns {
+        margin-top: -140%;
+        margin-left: -40%;
+    }
+
+    .Presentationtxt {
+        margin-top: -170%;
+        margin-left: -5%;
+    }
+    .PresentationMain {
+        margin-top: 140%;
+    }
+    .Objetivos {
+        margin-top: -385px;
+    }
+    .headMain {
+        display: flex;
+        margin-bottom: -20%;
+    }
+    .itemsMenu {
+        width: 100%;
+        margin: 120px 15px;
+        font-size: 10px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .itemsMenu a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        backdrop-filter: blur(4px);
+    }
+    .logo {
+        display: flex;
+        text-align: center;
+    }
+    .LogoPlenus img{
+        max-width: 100%;
+        max-height: 75%;
+        text-align: center;
+    }
+    .ArticleCenter {
+        flex-direction: column; 
+    }
+
+    .ArticleTitle {
+        text-align: center;
+        margin-left: 0; 
+        padding: 5px;
+    }
+
+    .ArticleTitle h1 {
+        font-size: 30px;
+    }
+
+    .ArticleTitle p {
+        font-size: 16px;
+        margin-right: 45%;
+    }
+    .PresentationTitle p{
+        margin-top: -170%;
+    }
+    .ico {
+        margin-top: 300px;
+        margin-right: 40px;
+        margin-left: -45px;
+        text-align: center;
+    }
+
+    .ico img {
+        max-width: 70%;
+        max-height: 200px; 
+        margin-left: 105%;
+    }
+    .container {
+        width: 40%;
+        max-width: 1440px;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .swiper-button-next {
+        margin-right: -3%;  /* Distância da borda direita */
+      }
+      
+      .swiper-button-prev {
+        margin-left: -3%;  /* Distância da borda esquerda */
+      }
+}
