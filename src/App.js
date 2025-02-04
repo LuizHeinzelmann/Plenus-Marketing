@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { isClickableInput } from '@testing-library/user-event/dist/utils';
 import { click } from '@testing-library/user-event/dist/click';
 import { useState, useEffect } from 'react'
-import './src/Appscss.scss';
+import './src/App.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
 
