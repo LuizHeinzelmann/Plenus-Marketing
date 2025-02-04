@@ -112,7 +112,7 @@ section.ArticleMain {
     margin-left: 5%;
     text-align: left;
     font-family: Fashion-Fetish-Regular;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .ico {
     margin-left: 650px;
@@ -338,6 +338,7 @@ section.PresentationMain {
         font-size: 16px;
         margin-right: 45%;
         margin-bottom: 500px; 
+        letter-spacing: 4px;
     }
     .PresentationTitle p{
         margin-top: -70%;
@@ -416,6 +417,7 @@ section.PresentationMain {
         text-align: center;
         margin-left: 0; 
         padding: 5px;
+        letter-spacing: 4px;
     }
 
     .ArticleTitle h1 {
@@ -505,6 +507,7 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
+        letter-spacing: 4px;
     }
 
     .ico {
@@ -569,6 +572,7 @@ section.PresentationMain {
         font-size: 16px;
         margin-right: 45%;
         margin-bottom: 500px;
+        letter-spacing: 4px;
     }
 
     .ico {
@@ -664,6 +668,7 @@ section.PresentationMain {
         margin-left: 0; 
         padding: 5px;
         margin-bottom: -15%;
+        letter-spacing: 4px;
     }
 
     .ArticleTitle h1 {
@@ -764,6 +769,7 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
+        letter-spacing: 4px;
     }
     .PresentationTitle p{
         margin-top: -170%;
