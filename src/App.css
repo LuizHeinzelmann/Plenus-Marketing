@@ -338,7 +338,7 @@ section.PresentationMain {
         font-size: 16px;
         margin-right: 45%;
         margin-bottom: 500px; 
-        letter-spacing: 4px;
+        letter-spacing: 9px;
     }
     .PresentationTitle p{
         margin-top: -70%;
@@ -428,7 +428,8 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
-        margin-bottom: 50px; 
+        margin-bottom: 50px;
+        letter-spacing: 9px; 
     }
 
     .ico {
@@ -507,7 +508,7 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
-        letter-spacing: 4px;
+        letter-spacing: 9px;
     }
 
     .ico {
@@ -572,7 +573,7 @@ section.PresentationMain {
         font-size: 16px;
         margin-right: 45%;
         margin-bottom: 500px;
-        letter-spacing: 4px;
+        letter-spacing: 9px;
     }
 
     .ico {
@@ -678,6 +679,7 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
+        letter-spacing: 9px;
     }
 
     .ico {
@@ -769,7 +771,7 @@ section.PresentationMain {
     .ArticleTitle p {
         font-size: 16px;
         margin-right: 45%;
-        letter-spacing: 4px;
+        letter-spacing: 9px;
     }
     .PresentationTitle p{
         margin-top: -170%;
