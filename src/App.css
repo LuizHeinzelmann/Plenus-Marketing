@@ -247,19 +247,19 @@ section.PresentationMain {
 
 .swiper-button-next,
 .swiper-button-prev {
-  background-color: rgba(0, 0, 0, 0);  /* Cor de fundo das setas */
-  border-radius: 50%;  /* Torna as setas circulares */
-  width: 20px;  /* Largura das setas */
-  height: 40px;  /* Altura das setas */
-  color: white;  /* Cor do ícone */
+  background-color: rgba(0, 0, 0, 0); 
+  border-radius: 50%;  
+  width: 20px;  
+  height: 40px;  
+  color: white;  
 }
 
 .swiper-button-next {
-  margin-right: -3%;  /* Distância da borda direita */
+  margin-right: -3%; 
 }
 
 .swiper-button-prev {
-  margin-left: -3%;  /* Distância da borda esquerda */
+  margin-left: -3%;  
 }
 
 .swiper-button-next:after,
@@ -606,11 +606,11 @@ section.PresentationMain {
         margin: 0 auto;
     }
     .swiper-button-next {
-        margin-right: -3%;  /* Distância da borda direita */
+        margin-right: -3%; 
       }
       
       .swiper-button-prev {
-        margin-left: -3%;  /* Distância da borda esquerda */
+        margin-left: -3%;
       }
 }
 @media (max-width: 430px) {
@@ -701,11 +701,11 @@ section.PresentationMain {
         margin: 0 auto;
     }
     .swiper-button-next {
-        margin-right: -3%;  /* Distância da borda direita */
+        margin-right: -3%;  
       }
       
       .swiper-button-prev {
-        margin-left: -3%;  /* Distância da borda esquerda */
+        margin-left: -3%; 
       }
 }
 @media (max-width: 344px) { /*more for smartphones like Galaxy Z Flip/Fold*/
@@ -795,10 +795,10 @@ section.PresentationMain {
         margin: 0 auto;
     }
     .swiper-button-next {
-        margin-right: -3%;  /* Distância da borda direita */
+        margin-right: -3%;  
       }
       
       .swiper-button-prev {
-        margin-left: -3%;  /* Distância da borda esquerda */
+        margin-left: -3%; 
       }
 }
