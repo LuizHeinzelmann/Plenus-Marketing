@@ -167,7 +167,7 @@ function App() {
         <a href="https://www.instagram.com/plenusmarketingdigital/?hl=en" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-instagram fa-4x icon-3d" alt="Instagram"></i>
         </a>
-        <a href="https://wa.me/555192977465" target="_blank" rel="noopener noreferrer"> {/* Aqui você pode colocar o link do WhatsApp */}
+        <a href="https://wa.me/555192977465" target="_blank" rel="noopener noreferrer"> 
           <i className="fa fa-whatsapp fa-4x icon-3d" alt="Whatsapp"></i>
         </a>
 
