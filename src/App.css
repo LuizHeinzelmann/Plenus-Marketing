@@ -31,8 +31,7 @@ section.headMain {
     background-position: center;
     background-size: cover;
     min-height:20%;
-    padding: 25px 0 40px 0;
-    position: sticky;
+    padding: 25px 0 20px 0;
 }
 .headCenter {
     display: flex;
@@ -439,9 +438,9 @@ section.PresentationMain {
     }
 
     .ico img {
-        max-width: 60%;
+        max-width: 75%;
         max-height: auto; 
-        margin-left: 60%;
+        margin-left: 75%;
     }
     .PresentationCenter {
         margin-top: -10%;
@@ -522,6 +521,17 @@ section.PresentationMain {
         max-height: 200px; 
         margin-left: 60%;
     }
+    .columns {
+        margin-top: 0%;
+        position: absolute;
+    }
+    .PresentationTitle p{
+        margin-top: 20%;
+    }
+    .flex-center {
+        margin-top: -20%;
+        margin-bottom: -20%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -529,6 +539,7 @@ section.PresentationMain {
         display: flex;
         margin-bottom: -20%;
     }
+
     .itemsMenu {
         width: 100%;
         margin: 150px 15px;
@@ -563,6 +574,7 @@ section.PresentationMain {
         text-align: center;
         margin-left: 0; 
         padding: 5px;
+        margin-top: -50%;
     }
 
     .ArticleTitle h1 {
@@ -577,8 +589,8 @@ section.PresentationMain {
     }
 
     .ico {
-        margin-top: 250px;
-        margin-left: -50px;
+        margin-top: 150px;
+        margin-left: -40px;
         text-align: center;
     }
 
@@ -586,18 +598,20 @@ section.PresentationMain {
         max-width: 70%;
         max-height: 200px; 
         margin-left: 165%;
+        margin-top: -90%;
     }
     .Objetivos {
-        margin-top: -80%;
+        margin-top: -60%;
     }
     .PresentationCenter {
         margin-top: -30%;
     }
     .PresentationCenter p{
-        margin-top: -70%;
+        margin-top: 35%;
     }
     .columns {
-        margin-top: -20px;
+        margin-top: 20%;
+        position: absolute;
     }
     .container {
         width: 40%;
@@ -611,6 +625,13 @@ section.PresentationMain {
       
       .swiper-button-prev {
         margin-left: -3%;
+      }
+      .Pleno {
+        font-size: 22px;
+        margin-top: -30%;
+      }
+      .flex-center {
+        margin-top: -30%;
       }
 }
 @media (max-width: 430px) {
@@ -626,7 +647,7 @@ section.PresentationMain {
     .PresentationTitle p{
         width: 120%;
         margin-left: -5%;
-        margin-top: -300px;
+        margin-top: 10%;
     }
     .headMain {
         display: flex;
@@ -668,7 +689,7 @@ section.PresentationMain {
         text-align: center;
         margin-left: 0; 
         padding: 5px;
-        margin-bottom: -15%;
+        margin-bottom: -45%;
         letter-spacing: 4px;
     }
 
@@ -692,7 +713,8 @@ section.PresentationMain {
     .ico img {
         max-width: 70%;
         max-height: 200px; 
-        margin-left: 105%;
+        margin-left: 115%;
+        margin-bottom: 30%;
     }
     .container {
         width: 40%;
@@ -706,6 +728,13 @@ section.PresentationMain {
       
       .swiper-button-prev {
         margin-left: -3%; 
+      }
+      .Pleno {
+        font-size: 22px;
+        margin-top: -30%;
+      }
+      .flex-center {
+        margin-top: -30%;
       }
 }
 @media (max-width: 344px) { /*more for smartphones like Galaxy Z Flip/Fold*/
