@@ -3,16 +3,14 @@ import Logo from './assets/logo.jpg'
 import ico from './assets/ico.png'
 import columns from './assets/columns.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { isClickableInput } from '@testing-library/user-event/dist/utils';
-import { click } from '@testing-library/user-event/dist/click';
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import './App.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
 
 
 function App() {
-  const [slidePerView, setSlidePerView] = useState(1)
+  const [slidePerView] = useState(1)
  
   const data = [    //Academia
 
