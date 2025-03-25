@@ -59,6 +59,30 @@ section.headMain {
     display: inline-block;
     margin: 0 13px;
     backdrop-filter: blur(4px);
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 0.3s;
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1; 
+    }
 }
 .logo {
     display: flex;
@@ -71,12 +95,21 @@ section.headMain {
     max-height: 30%;
     text-align: left;
     margin: -10px 8px 0 15px;
+    opacity: 0;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 0.3s;
 }
 section.ArticleMain {
     background-color: transparent;
     background-position: center;
     background-size: cover;
     min-width: 100%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .ArticleCenter {
     max-width: 1100px;
@@ -146,6 +179,10 @@ section.ArticleMain {
     text-align: center;
     align-items: center;
     margin-top: 10%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .columns {
     display: flex;
@@ -171,6 +208,10 @@ section.PresentationMain {
     align-items: center;
     flex-wrap: wrap;
     padding: 0 15%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .PresentationTitle h1{
     color: white;
@@ -224,6 +265,10 @@ section.PresentationMain {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .Slider {
     text-align: center;
@@ -272,6 +317,10 @@ section.PresentationMain {
     font-size: 40px;
     margin-top: 6%;
     margin-bottom: -5%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
 .Pleno {
     text-align: center;
@@ -279,8 +328,17 @@ section.PresentationMain {
     font-size: 28px;
     font-style:oblique;
     margin-bottom: 10%;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
 }
-
+.flex-center {
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideUp 0.9s ease-out forwards;
+    animation-delay: 0.1s;
+}
 /*@media below*/
 
 @media (max-width: 736px) {
@@ -628,10 +686,10 @@ section.PresentationMain {
       }
       .Pleno {
         font-size: 22px;
-        margin-top: -30%;
+        margin-top: -15%;
       }
       .flex-center {
-        margin-top: -30%;
+        margin-top: -15%;
       }
 }
 @media (max-width: 430px) {
